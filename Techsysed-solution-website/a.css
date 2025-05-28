@@ -1,0 +1,803 @@
+body{
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+
+height: auto;
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+/* border: 1px solid black; */
+}
+#imageslider{
+    height: 700px;
+    width: 99%;
+    background-image:url("./web-development-companies-techsysd-it-solution.jpg");
+    background-size: 100% 100%;
+    animation:changeImage 10s linear infinite;
+}
+@keyframes changeImage{
+    0%{
+        background-image: url("./web-development-companies-techsysd-it-solution.jpg");
+    }
+    25%{
+        background-image: url("./tech\ img1.jpg");
+    }
+    50%
+    {
+        background-image: url("./tech\ img2.jpeg");
+    }
+    100%
+    {
+        background-image: url("./tech\ img3.jpg");
+    }
+}
+    
+
+
+
+
+
+
+#box2
+{
+    height: auto;
+    /* width: 60px; */
+    /* border: 1px solid black; */
+    margin-bottom: 2vh;
+
+    
+    
+}
+ h2{
+
+    font-size: 3vh;
+ }  
+ 
+ h1{
+    font-size: 5vh;
+ }
+ h3{
+    font-size: 2vh;
+ }
+    #img{
+        height: 300px;
+        width: 400px;
+        
+    }
+
+    .main2
+    {
+        height: auto;
+        
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+    }
+
+    #ul1
+    {
+
+        display: flex;
+        flex-direction: column;
+    }
+    #text1
+    {
+        height: 40%;
+        width: 60%;
+        
+        /* border: 1px solid black; */
+    }
+
+    #text2
+    {
+
+        height: 500px;
+        width: 500px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 15px;
+    
+        
+    }
+    
+    #card1
+    {
+        /* height:200px;
+        
+        width: 200px; */
+        box-shadow: 0px 5px 5px 5px rgb(140, 153, 158);
+        border-radius: 5px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+        /* border: 1px solid black; */
+    }
+    #card2
+    {
+        /* height: 200px;
+        width:200px; */
+        border-radius: 5px;
+
+        box-shadow: 0px 5px 5px 5px rgb(140, 153, 158);
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+        /* border: 1px solid black; */
+    }
+    #card3
+    {
+        /* height: 200px;
+        width: 200px; */
+        box-shadow: 0px 5px 5px 5px rgb(140, 153, 158);
+        /* width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 5px; */
+
+        /* border: 1px solid black; */
+    }
+    #card4
+    {
+        /* height: 200px;
+        width: 200px; */
+        box-shadow: 0px 5px 5px 5px rgb(140, 153, 158);
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+        border-radius: 5px;
+
+        /* border: 1px solid black; */
+    }
+
+   
+    #main3
+    {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+    }
+
+    #text3
+    {
+        height: 500px;
+        width: 500px;
+        
+        
+        
+        /* border: 1px solid black; */
+    }
+    #text4
+    {
+        height: 500px;
+        width: 700px;
+        /* font-family: sans-serif; */
+        font-size: large;
+        /* border: 1px solid black; */
+    }
+    #main4
+    {
+        height: auto;
+        
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        border: 1px solid black;
+        gap: 4vh;
+        
+    }
+    #text5
+    {
+        height: 500px;
+        width: 600px;
+        font-family:sans-serif;
+        font-size: medium;
+        text-align: right;
+        /* border: 1px solid black; */
+    }
+    h2
+    {
+        font-size: 4.5vh;
+    }
+    h3
+    {
+        font-size: 3vh;
+    }
+    
+        
+    
+    #text6
+    {
+
+        margin-right: 5vh;
+        /* border: 1px solid black; */
+    }
+   
+
+      
+      
+      
+       
+       
+
+    
+
+    #main5
+    {
+        height: auto;
+        
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    #card9
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+    #card10
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+    #card11
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+    #card12
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+    #card13
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+    #card14
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+    #card15
+    {
+        height: 230px;
+        width: 230px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        border-radius: 7px;
+        cursor: pointer;
+
+    }
+
+    #main6
+    {
+        height: auto;
+        /* width: 1050px; */
+        
+         /* display: flex;
+        align-items: center;
+        flex-wrap: wrap; */
+        gap: 4vh; 
+        /* border: 1px solid black; */
+    }
+    #card16
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+     
+
+
+    #card17
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card18
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card19
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card20
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card21
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card22
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card23
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card24
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+    #card25
+    {
+        height: 170px;
+        width: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px rgb(140, 153, 158);
+        cursor: pointer;
+
+        /* border: 1px solid black; */
+    }
+
+    .cardA :hover
+    {
+        background-color: #00000096;
+        transform: scale(1.05);
+        
+        
+    }
+    #main7
+    {
+        /* height: auto;
+        width: auto; */
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:  5vh;
+        background-image: url("./img/OIP.jpg");
+        background-size: cover;
+
+    }
+    #form
+    {
+        width: 95%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 5vh;
+        font-family: sans-serif;
+        font-size: 4vh;
+        padding-top: 2vh;
+        gap: 2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        background-color: #00000096;
+        /* border: 1px solid black; */
+        color: #ffff;
+    }
+    /* #formtext
+    {
+        width: 1000px;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        
+        /* border: 1px solid black; */
+     */
+    input1
+    {
+        height: 9vh;
+        width: 350px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        font-family: sans-serif;
+        border-style: none;
+        font-size: medium;
+    }
+   
+    button
+    {
+        height: 8vh;
+        width: 40vh;
+        background-color: #ef3526;
+        border-style: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    #main8
+    {
+        max-height: 1000px;
+        width: 90%;
+        /* border: 1px solid black; */
+        
+    }
+    .cardB
+    {
+        height: 400px;
+        width: 100%;
+        background-image: url("./img/b1.png");
+        background-size: cover;
+        /* border: 1px solid black; */
+    }
+    #cardC
+    {
+        /* height: 200px; */
+        /* width: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border: 1px solid black; */
+        
+    }
+    #A
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor:pointer;
+        /* border: 1px solid black; */
+    }
+    #B
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor:pointer;
+        /* border: 1px solid black; */
+    }
+    #C
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor:pointer;
+        /* border: 1px solid black; */
+    }
+    #D
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor:pointer;
+        /* border: 1px solid black; */
+    }
+    #E
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor:pointer;
+        /* border: 1px solid black; */
+    }
+    .img2{
+        height: 50px;
+        width: 150px;
+    }
+    #A:hover
+    {
+        box-shadow: 0px 2px 2px 2px rgb(140, 153, 158);
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    #B:hover
+    {
+        box-shadow: 0px 2px 2px 2px rgb(140, 153, 158);
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    #C:hover
+    {
+        box-shadow: 0px 2px 2px 2px rgb(140, 153, 158);
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    #D:hover
+    {
+        box-shadow: 0px 2px 2px 2px rgb(140, 153, 158);
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    #E:hover
+    {
+        box-shadow: 0px 2px 2px 2px rgb(140, 153, 158);
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+
+    #content1
+    {
+        height: auto;
+        background-color: #1c17b0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4vh;
+        /* border: 1px solid black; */
+    }
+
+    #dabba1
+    {
+        height: 50%;
+        width: auto;
+        display: flex;
+        cursor: pointer;
+        /* border: 1px solid black; */
+    }
+    #dabba2
+    {
+        height: 50%;
+        width: auto;
+        display: flex;
+        cursor: pointer;
+        /* border: 1px solid black; */
+    }
+    #dabba3
+    {
+        height: 60%;
+        width: auto;
+        display: flex;
+        cursor: pointer;
+        /* border: 1px solid black; */
+    }
+
+    .imgbox
+    {
+        height: 70px;
+        width: 70px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    #imgbox1
+    {
+        height: 70px;
+        width: 80px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    #content2
+    {
+        height: auto;
+        color: white;
+        background-color: rgb(40, 39, 39);
+    }
+    #text-content
+    {
+        height: auto;
+        width: 90%;
+        color: white;
+        /* border: 1px solid black; */
+    }
+    #text-content2
+    {
+        height: auto;
+        background-color: rgb(40, 39, 39);
+
+        /* width: 100%;
+        color: white;
+        
+        display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        /* border: 1px solid black; */
+    }
+
+  
+
+    li{
+        color: #eae3df;
+        list-style: none;
+        text-align: left;
+        
+    }
+    #t1
+    {
+        height: auto;
+        /* width: 25vh; */
+        text-align: center;
+        display: flex;
+        gap: 1vh;
+        cursor: pointer;
+        color: white;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    #t2
+    {
+        height: auto;
+        color: white;
+        /* width: 25vh; */
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        gap: 2vh;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    #t3
+    {
+        height: auto;
+        color: white;
+        gap: 2vh;
+        /* width: 30vh; */
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        gap: 2vh;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    #t4
+    {
+        height:auto;
+        color: white;
+        gap: 2vh;
+        /* width: 30vh; */
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        gap: 1vh;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+ 
+   
+    
